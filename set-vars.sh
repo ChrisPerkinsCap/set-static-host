@@ -3,6 +3,7 @@
 host_name=$(hostname -s)
 new_hostname="${1}"
 ip="192.168.56.${2}"
+templates_dir="${PWD}/templates"
 # configs_dir="${PWD}/etc"
 configs_dir="/etc"
 netplan_dir="${configs_dir}/netplan"
