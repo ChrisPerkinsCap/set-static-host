@@ -1,0 +1,9 @@
+127.0.0.1 localhost
+127.0.1.1 MacPerk
+
+# The f1ollowing lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+f1e00::0 ip6-localnet
+f1f00::0 ip6-mcastprefix
+f1f02::1 ip6-allnodes
+f1f02::2 ip6-allrouters
