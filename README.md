@@ -26,6 +26,6 @@ Currently the scripts only change the host (last) segment of the IP address. I d
 
 Example IP: `192.168.56.17`
 
-IP Address Segments: `192.168.56.` *Network ID* `17` *Host ID*
+IP Address Segments: **Network ID** `192.168.56.` **Host ID** `17`
 
 The argumentss need to be supplied to the script in the correct order. The hostname should be supplied first and the IP segment
