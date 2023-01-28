@@ -28,4 +28,10 @@ Example IP: `192.168.56.17`
 
 IP Address Segments: **Network ID** `192.168.56.` **Host ID** `17`
 
-The argumentss need to be supplied to the script in the correct order. The hostname should be supplied first and the IP segment
+The argumentss need to be supplied to the script in the correct order. The hostname should be supplied first followed by the IP segment.
+
+So for the hostname `node1` and the IP Address `192.168.56.17` call the `./set-hostname.sh` script as follows:
+
+```bash
+./set-hostname.sh node1 17
+```
