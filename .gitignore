@@ -1,0 +1,4 @@
+# Gitignore file for set-static-host convenience scripts
+
+# MacOS meta data files
+.DS_Store
