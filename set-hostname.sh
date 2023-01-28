@@ -81,6 +81,18 @@ fi
 ##############################################
 ##########  modify Evironment State ##########
 
+# Replace the default  00-installer-config.yaml file
+if [ -f "${netplan_dir}/00-installer-config.yaml" ];
+then
+  sudo rm /etc/netplan/00-installer-config.yaml
+fi
+
+if [ ! -f "${netplan_dir}/00-installer-config.yaml" ];
+then
+  sudo cp "${templates_dir}/00-installer-config.yaml" "${netplan_dir}/00-installer-config.yaml"
+fi
+
+
 # Check the hostname has been supplied and apply it to the /etc/hosts file
 if [ -n "${host_name}" ] && [ "${mod_hostname}" == "y" ] && [ ! -f "${configs_dir}/hosts.bkp" ];
 then
