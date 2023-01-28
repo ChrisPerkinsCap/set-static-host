@@ -24,6 +24,8 @@ To set a new hostname and static IP address in the machine use the ./set-hostnam
 
 Currently the scripts only change the host (last) segment of the IP address. I do plan to add the functionality to change each segment but, for now this meets my needs.
 
-IP Address Segments: `192.168.56.^Network ID^ 17^Host ID^`
+Example IP: `192.168.56.17`
+
+IP Address Segments: `192.168.56.` *Network ID* `17` *Host ID*
 
 The argumentss need to be supplied to the script in the correct order. The hostname should be supplied first and the IP segment
